@@ -40,7 +40,7 @@ owner:
   name:           yuming shih
   site:           http://aronbordin.com
   avatar:         images/avatar.jpg
-  bio:            "Hello, I'm a graduate student in NCU. I major in Computer Science, and my have great interest in insects."
+  bio:            "Hello, I'm a graduate student in NCU. I major in Computer Science, and I have great interest in insects."
   email:          aa3710079@email.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: SHIHMINGYU # if no twitter in this config, the twitter follow button will be removed
