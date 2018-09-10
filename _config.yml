@@ -37,11 +37,11 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
+  name:           yuming shih
   site:           http://aronbordin.com
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "Hello, I'm a graduate student in NCU. I major in Computer Science, and my have great interest in insects."
+  email:          aa3710079@email.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: SHIHMINGYU # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
