@@ -76,7 +76,6 @@ void Swap(int &x, int &y)
 |            |     a    |     b    |
 | :--------: | :------: | :------: |
 | **value**  | 5        | 10       |
-| -----
 | **address**| 0x04     | 0x08     
 {: rules="groups" }
 
@@ -88,7 +87,7 @@ void Swap(int &x, int &y)
 | **address**| 0x04     | 0x08     |..| 0x04 | 0x08 
 {: rules="groups" }
 
-注意到了嗎? x不管是address還是value都跟a一樣，也就是說，x完完全全就是a本人，x只是a變數的別名
+注意到了嗎? x不管是address還是value都跟a一樣，也就是說，x完完全全就是a本人，x只是a變數的別名  
 Swap完後，記憶體長這樣:
 
 |            |     a    |     b    |..|  x   | y    |
@@ -158,10 +157,4 @@ Swap完之後:
 &x == 0x16**  
 其實，Call By Address根本就是Call By Value的一種，只是傳遞的是**址**不是**值**
 
-參考資料: http://wp.mlab.tw/?p=176
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   
-{: rules="groups"}
+參考資料: <http://wp.mlab.tw/?p=176>
