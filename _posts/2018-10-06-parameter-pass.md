@@ -43,7 +43,7 @@ int sum(int x, int y)
 基本上也就是把a的值複製給x、b的值複製給y，沒什麼特別的
 
 ## Call By Reference
-```C++=
+```C++
 #include <iostream>
 using namespace std;
 
@@ -126,7 +126,8 @@ void Swap(int *x, int *y)
 |            |     a    |     b    |..| x    | y    |
 | ---------- | -------- | -------- |--| ---- | ---- |
 | **value**  | 5        | 10       |..| 0x04 | 0x08 |
-| **address**| 0x04     | 0x08     |..| 0x16 | 0x20 |
+| **address**| 0x04     | 0x08     |..| 0x16 | 0x20 
+{: rules="groups"}
 
 &為取址運算子，加在變數前面，可以提取該變數的address
 當呼叫Swap(&a, &b)時，傳遞的是a及b的位址，分別為0x04以及0x08
