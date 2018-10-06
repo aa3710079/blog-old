@@ -43,7 +43,7 @@ int sum(int x, int y)
 基本上也就是把a的值複製給x、b的值複製給y，沒什麼特別的
 
 ## Call By Reference
-```C++
+{% highlight C++ %}
 #include <iostream>
 using namespace std;
 
@@ -69,13 +69,15 @@ void Swap(int &x, int &y)
     x = y;
     y = temp;
 }
-```
+{% endhighlight %}
 在呼叫Swap以前，記憶體位址與內容長得像這樣:
 
 |            |     a    |     b    |
-| ---------- | -------- | -------- |
+| :--------: | :------: | :------: |
 | **value**  | 5        | 10       |
-| **address**| 0x04     | 0x08     |
+| -----
+| **address**| 0x04     | 0x08     
+{: rules="groups" }
 
 當程式跑到第21行:
 
