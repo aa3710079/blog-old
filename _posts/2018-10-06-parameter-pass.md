@@ -126,8 +126,7 @@ void Swap(int *x, int *y)
 |            |     a    |     b    |..| x    | y    |
 | ---------- | -------- | -------- |--| ---- | ---- |
 | **value**  | 5        | 10       |..| 0x04 | 0x08 |
-| **address**| 0x04     | 0x08     |..| 0x16 | 0x20 
-{: rules="groups"}
+| **address**| 0x04     | 0x08     |..| 0x16 | 0x20 |
 
 &為取址運算子，加在變數前面，可以提取該變數的address
 當呼叫Swap(&a, &b)時，傳遞的是a及b的位址，分別為0x04以及0x08
@@ -152,3 +151,11 @@ Swap完之後:
 其實，Call By Address根本就是Call By Value的一種，只是傳遞的是**址**不是**值**
 
 參考資料: http://wp.mlab.tw/?p=176
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
